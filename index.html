@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <!-- tailwind and daisyui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Bebas+Neue&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Babas-neue font style link -->
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .andada-pro {
+            font-family: "Andada Pro", serif;
+        }
+
+        .roboto-slab {
+            font-family: "Roboto Slab", serif;
+        }
+    </style>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <!-- first navber -->
+        <section class="andada-pro ">
+            <div class="  navbar bg-gray-600 shadow-sm flex lg:flex-row justify-between">
+                <div
+                    class="flex lg:flex-row flex-col text-white justify-between items-center lg:gap-10 gap-0 lg:ml-0 ml-2">
+                    <p class="lg:ml-[180px]  andada-pro text-[18px] items-center">Summer Sale For All Swim Suits And
+                        Free Express Delivery - OFF 50%!</p>
+                    <a class="andada-pro font-extrabold lg:text-2xl text-xl text-red-500 lg:mr-0 mr-48">ShopNow</a>
+                </div>
+                <div class="flex-none lg:mr-32 mr-0">
+                    <ul class="menu menu-horizontal px-1">
+                        <li>
+                            <details>
+                                <summary class="text-white font-bold text-xl">Language</summary>
+                                <ul class="bg-gray-500 rounded-t-none p-2 text-white text-xl hover:text-slate-50">
+                                    <li><a>English</a></li>
+                                    <li><a>Bangla</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- second navber -->
+        <section class="lg:mx-20 pt-10">
+            <div>
+                <div class="flex flex-col lg:flex-row navbar bg-base-100">
+                    <div class="flex navbar lg:ml-0 ml-32 ">
+                        <div class="navbar-start ">
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                </div>
+                                <ul tabindex="0"
+                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 lg:w-52 lg:p-2 shadow text-white">
+                                    <li><a>Home</a></li>
+                                    <li><a>Contact</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Sign Up</a></li>
+                                </ul>
+                            </div>
+                            <a class="roboto-slab btn btn-ghost text-5xl text-white px-0">Vendo <span class="font-extrabold text-indigo-600">:</span><span
+                                    class="text-red-500">Shop</span></a>
+                        </div>
+                        <div class="roboto-slab font-bold navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal  lg:px-1 text-white">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="sign-up.html">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-end gap-5 flex flex-col lg:flex-row">
+                        <div class="flex mr-20">
+                            <input
+                                class="andada-pro text-sm border-2 p-2 relative rounded-xl lg:h-12 left-7 lg:left-0 w-[230px] lg:w-[250px]"
+                                type="text" placeholder="What are you looking for? ">
+                            <button>
+                                <a>
+                                    <i class="fa-solid fa-magnifying-glass absolute lg:right-48 right-20
+                                    top-[245px]
+                                    lg:top-[150px] "></i>
+                                </a>
+                            </button>
+                        </div>
+                        <div class="flex gap-5 ">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="text-white pb-20">
+
+
+        <!-- main header section -->
+        <section class="lg:ml-44 py-10">
+            <div class="w-full h-[500px] bg-no-repeat lg:pr-32" style="background-image: url(images/sell3.avif);">
+                <h3 class="text-6xl text-white font-extrabold roboto-slab text-center pt-5 lg:pt-[100px] pb-10">We
+                    Provide
+                    exclusive<br>product's</h3>
+                <p class="roboto-slab max-w-2xl text-center mx-auto text-white">Welcome to [Your Website Name], your
+                    one-stop destination for cutting-edge electronics. From the latest smartphones and high-performance
+                    laptops to smart home gadgets and gaming essentials, we bring you top-quality products at unbeatable
+                    prices.</p>
+                <div class="flex gap-10 justify-center py-10">
+                    <input class="bg-white h-[60px] lg:w-[400px] rounded-lg roboto-slab text-black" type="text"
+                        placeholder="Search your Services">
+                    <button
+                        class="btn btn-active h-[60px] roboto-slab font-extrabold w-40 text-white hover:text-black btn-secondary hover:bg-fuchsia-300">Search</button>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <!-- flash section todays -->
+        <section class="mx-5 lg:mx-32 pt-10 lg:pt-20 space-y-10 roboto-slab">
+            <div>
+                <div class="flex items-center gap-5">
+                    <div class="bg-red-500 w-8 h-16 rounded-xl"></div>
+                    <h3 class="font-extrabold text-4xl text-white bebas-neue-regular">Today's</h3>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-20">
+                <div>
+                    <h3 class="text-5xl font-bold text-white">Flash Sales</h3>
+                </div>
+                <div class="flex items-center gap-3 lg:gap-8">
+                    <div>
+                        <h4 class="text-white">Days</h4>
+                        <h2 class="text-4xl font-bold text-white">03</h2>
+                    </div>
+                    <div class="text-white text-3xl">:</div>
+                    <div>
+                        <h4 class="text-white">Hours</h4>
+                        <h2 class="text-4xl font-bold text-white">23</h2>
+                    </div>
+                    <div class="text-white text-3xl">:</div>
+                    <div>
+                        <h4 class="text-white">Minutes</h4>
+                        <h2 class="text-4xl font-bold text-white">19</h2>
+                    </div>
+                    <div class="text-white text-3xl">:</div>
+                    <div>
+                        <h4 class="text-white">Seconds</h4>
+                        <h2 class="text-4xl font-bold text-white">56</h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- product images -->
+            <div class="flex flex-col lg:flex-row gap-10">
+                <div>
+                    <div class="bg-slate-600 p-5 space-y-5 rounded-xl hover:scale-110 hover:bg-black">
+                        <div class="relative">
+                            <img class="w-[350px] lg:w-[200px] h-48 lg:h-40" src="images/phone.jpeg" alt="">
+
+                            <h4 class="font-extrabold absolute 
+                            left-3 lg:left-5 top-3 lg:top-5 text-white bg-red-400 p-2 rounded-xl">
+                                -40%</h4>
+
+                            <div class="grid grid-cols-1 gap-2 text-white absolute top-3 lg:top-5 right-3 lg:right-5">
+                                <button><i class="bg-slate-500 p-2 rounded-full fa-regular fa-heart hover:bg-red-500"></i>
+                                </button>
+                                <button>
+                                    <i class="bg-slate-500 p-2  rounded-full fa-solid fa-eye hover:bg-red-500"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="space-y-3 text-white">
+                            <h3 class="font-extrabold text-[20px]">HAVIT HV-G92 Gamepad</h3>
+                            <div class="flex gap-5">
+                                <h3>$120</h3>
+                                <h3 class="underline">$160</h3>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked="checked" />
+                                </div>
+                                <div>
+                                    <h3>(65)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-slate-600 p-5 space-y-5 rounded-xl hover:scale-110 hover:bg-black">
+                        <div class="relative">
+                            <img class="w-[350px] lg:w-[200px] h-48 lg:h-40" src="images/laptop2.jpeg" alt="">
+
+                            <h4 class="font-extrabold absolute
+                            left-3 lg:left-5 top-3 lg:top-5 text-white bg-red-400 p-2 rounded-xl">
+                                -40%</h4>
+
+                            <div class="grid grid-cols-1 gap-2 text-white absolute top-3 lg:top-5 
+                            right-3 :right-5">
+                                <button><i class="bg-slate-500 p-2 rounded-full fa-regular fa-heart hover:bg-red-500"></i>
+                                </button>
+                                <button>
+                                    <i class="bg-slate-500 p-2  rounded-full fa-solid fa-eye hover:bg-red-500"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="space-y-3 text-white">
+                            <h3 class="font-extrabold text-[20px] ">AK-900 Wired keyboard</h3>
+                            <div class="flex gap-5">
+                                <h3>$120</h3>
+                                <h3 class="underline">$160</h3>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked="checked" />
+                                </div>
+                                <div>
+                                    <h3>(75)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-slate-600 p-5 space-y-5 rounded-xl hover:scale-110 hover:bg-black">
+                        <div class="relative">
+                            <img class="w-[350px] lg:w-[200px] h-48 lg:h-40" src="images/headphone.jpg" alt="">
+
+                            <h4
+                                class="font-extrabold absolute left-3 lg:left-5 top-3 lg:top-5 text-white bg-red-400 p-2 rounded-xl">
+                                -40%</h4>
+
+                            <div class="grid grid-cols-1 gap-2 text-white absolute top-3 lg:top-5
+                            right-3 lg:right-5">
+                                <button><i class="bg-slate-500 p-2 rounded-full fa-regular fa-heart hover:bg-red-500"></i>
+                                </button>
+                                <button>
+                                    <i class="bg-slate-500 p-2  rounded-full fa-solid fa-eye hover:bg-red-500"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="space-y-3 text-white">
+                            <h3 class="font-extrabold text-[20px]">IPS LCD Gaming Monitor</h3>
+                            <div class="flex gap-5">
+                                <h3>$120</h3>
+                                <h3 class="underline">$160</h3>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked="checked" />
+                                </div>
+                                <div>
+                                    <h3>(99)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-slate-600 p-5 space-y-5 rounded-xl hover:scale-110 hover:bg-black">
+                        <div class="relative">
+                            <img class="w-[350px] lg:w-[200px] h-48 lg:h-40" src="images/pcjpg.jpg" alt="">
+ 
+                            <h4
+                                class="font-extrabold absolute left-3 lg:left-5 top-3 lg:top-5 text-white bg-red-400 p-2 rounded-xl">
+                                -40%</h4>
+
+                            <div class="grid grid-cols-1 gap-2 text-white absolute top-3 lg:top-5
+                            right-3 lg:right-5">
+                                <button><i class="bg-slate-500 p-2 rounded-full fa-regular fa-heart hover:bg-red-500"></i>
+                                </button>
+                                <button>
+                                    <i class="bg-slate-500 p-2  rounded-full fa-solid fa-eye hover:bg-red-500"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="space-y-3 text-white">
+                            <h3 class="font-extrabold text-[20px]">S-Series Comfort Chair</h3>
+                            <div class="flex gap-5">
+                                <h3>$120</h3>
+                                <h3 class="underline">$160</h3>
+                            </div>
+                            <div class="flex gap-5">
+                                <div class="rating">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                        checked="checked" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <div>
+                                    <h3>(88)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mx-32 lg:mx-[500px]">
+                <button class="btn btn-active btn-secondary hover:bg-red-500">
+                    View All Products
+                </button>
+            </div>
+        </section>
+
+
+
+        <!-- new product section -->
+        <section class="lg:mx-32 roboto-slab">
+            <div class="py-20">
+                <h3 class="text-white text-5xl font-extrabold text-center">Our New Products</h3>
+                <p class="text-white text-bold text-center max-w-3xl mx-auto">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+                <div
+                    class="hover:scale-105  transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/5.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="hover:scale-105 transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/6.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="hover:scale-105 transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/7.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="hover:scale-105 transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/8.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="hover:scale-105 transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/9.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="hover:scale-105 transition-transform gap-5 flex flex-col items-center lg:flex-row justify-between bg-amber-50 p-10 rounded-xl">
+                    <div class="hover:scale-125 cursor-pointer">
+                        <img src="Images/10.png" alt="">
+                    </div>
+                    <div class="">
+                        <div class="flex gap-5 ">
+                            <div class="items-center flex gap-2">
+                                <i class="text-orange-500 fa-solid fa-star"></i>
+                                <h3 class="font-bold">5.0</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-eye"></i>
+                                <h3 class="font-bold">20</h3>
+                            </div>
+                            <div class="items-center flex gap-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3 class="font-bold">200</h3>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="text-black font-extra-bold text-2xl">World Cup Flags Football</h3>
+                            <p class="text-black max-w-80">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                            <div class="flex justify-between">
+                                <h1 class="text-extrabold text-[20px] text-orange-400">Price - $22.00</h1>
+                                <div class="flex items-center gap-3">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h1>Delivery Fee : Free</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <!-- slide section bike zone -->
+        <section class="lg:mx-32 py-20 roboto-slab flex flex-col">
+            <div class="space-y-4 mb-14">
+                <h2 class="text-5xl text-white font-extrabold text-center">Bike<span class="text-red-500">Zone</span></h2>
+                <h3 class="text-2xl text-white text-center">For your safe jounrey and best choice's</h3>
+            </div>
+
+            <div class="carousel w-full bg-orange-200  lg:h-[600px]">
+                <div id="slide1" class="carousel-item relative w-full  ">
+                    <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
+                        <div class="flex-1 space-y-7 py-20">
+                            <h3 class="text-6xl font-bold">Honda CBR 300R</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <button class="btn bg-bike-primary text-white btn-warning">Purchase</button>
+                        </div>
+                        <div class="flex-1 py-10">
+                            <img src="images/bike1.png" class="w-[400px] lg:mx-20" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+                        <div class="space-y-7 flex-1 py-20">
+                            <h3 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h3>
+                            <p>Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="btn bg-bike-primary text-white btn-warning">Purchase</button>
+                        </div>
+                        <div class="flex-1 py-20 ">
+                            <img src="images/bike2.png" class="lg:mx-20 w-[450px]" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
+                        <div class="flex-1 space-y-7 py-20">
+                            <h3 class="text-6xl font-bold">Honda CBR 300R</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <button class="btn bg-bike-primary text-white btn-warning">Purchase</button>
+                        </div>
+                        <div class="flex-1 py-10">
+                            <img src="images/bike3.png" class="w-[400p] lg:mx-20" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
+                        <div class="flex-1 space-y-7 py-20">
+                            <h3 class="text-6xl font-bold">Honda CBR 300R</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat
+                                duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <button class="btn bg-bike-primary text-white btn-warning">Purchase</button>
+                        </div>
+                        <div class="flex-1 py-10">
+                            <img src="images/bike4.png" class="w-[400p] lg:mx-20" />
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- upcoming products section-->
+        <section class="lg:mx-32 roboto-slab lg:pt-10">
+            <div class="mx-20 text-center space-y-5 pb-10">
+                <h3 class="text-5xl text-white font-extrabold">Upcoming Products
+                </h3>
+                <p class="text-white bebas-neue-regular text-3xl">Md <span class="text-orange-400">Shoayeb</span> Islam
+                </p>
+            </div>
+            <div class="flex">
+
+                <div class="cursor-pointer relative group overflow-hidden rounded-lg">
+                    <img class="w-[400px] h-[250px] transform transition duration-300 ease-in-out group-hover:scale-110 "
+                        src="images/tshirt.jpg" alt="">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 lg:pb-7 ">
+                        <i class="text-3xl fa-brands fa-instagram hover:text-orange-500"></i>
+                        <button
+                            class="absolute lg:right-24 top-[50px] lg:top-32 w-16 h-16  text-white text-xl hover:text-orange-500">TShirt</button>
+
+                    </div>
+                </div>
+
+                <div class="cursor-pointer relative group overflow-hidden rounded-lg">
+                    <img class="w-[400px] h-[250px] transform transition duration-300 ease-in-out group-hover:scale-110"
+                        src="images/jacket_.jpg" alt="">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 lg:pb-7 ">
+                        <i class="text-3xl fa-brands fa-instagram hover:text-orange-500"></i>
+                        <button
+                            class="absolute lg:right-24 top-[50px] lg:top-32 w-16 h-16  text-white text-xl hover:text-orange-500">Jacket</button>
+
+                    </div>
+                </div>
+                <div class="cursor-pointer relative group overflow-hidden rounded-lg">
+                    <img class="w-[400px] h-[250px] transform transition duration-300 ease-in-out group-hover:scale-110"
+                        src="images/juta.webp" alt="">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 lg:pb-7 ">
+                        <i class="text-3xl fa-brands fa-instagram hover:text-orange-500"></i>
+                        <button
+                            class="absolute lg:right-24 top-[50px] lg:top-32 w-16 h-16  text-white text-xl hover:text-orange-500">Shoes</button>
+
+                    </div>
+                </div>
+                <div class="cursor-pointer relative group overflow-hidden rounded-lg">
+                    <img class="w-[400px] h-[250px] transform transition duration-300 ease-in-out group-hover:scale-110"
+                        src="images/14.jpg.webp" alt="">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300 lg:pb-7 ">
+                        <i class="text-3xl fa-brands fa-instagram hover:text-orange-500"></i>
+                        <button
+                            class="absolute lg:right-24 top-[50px] lg:top-32 w-16 h-16  text-white text-xl hover:text-orange-500">Fashion</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Professional Hockeys Club section -->
+        <section class="py-20 roboto-slab lg:mx-32 lg:pt-32">
+            <div class="space-y-5">
+                <h3 class="text-5xl font-extrabold text-white text-center">Selling Performance</h3>
+                <p class="max-w-3xl mx-auto text-center text-white">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-5 mt-20 bg-zinc-600 py-10 rounded-xl">
+                <div class="p-10 rounded-2xl ">
+                    <div class="lg:ml-10 ml-32 mb-5 radial-progress text-primary" style="--value:87;"
+                        role="progressbar">87%</div>
+                    <h3 class="text-2xl text-center font-bold text-white">Bike Zone</h3>
+                    <p class="text-center text-gray-300">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="p-10 rounded-2xl">
+                    <div class="lg:ml-10 ml-32 mb-5 radial-progress text-primary" style="--value:90;"
+                        role="progressbar">90%</div>
+                    <h3 class="text-2xl text-center font-bold text-white">Mobile Phone</h3>
+                    <p class="text-center text-gray-300">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="p-10 rounded-2xl">
+                    <div class="lg:ml-10 ml-32 mb-5 radial-progress text-primary" style="--value:60;"
+                        role="progressbar">60%</div>
+                    <h3 class="text-2xl text-center font-bold text-white">Laptop</h3>
+                    <p class="text-center text-gray-300">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="p-10 rounded-2xl">
+                    <div class="lg:ml-10 ml-32 mb-5 radial-progress text-primary" style="--value:80;"
+                        role="progressbar">80%</div>
+                    <h3 class="text-2xl text-center font-bold text-white">Electronics</h3>
+                    <p class="text-center text-gray-300">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- clients sec tion -->
+        <section>
+            <div>
+                <h2 class="text-center text-5xl text-white bebas-neue-regular pt-10">Clients <span class="text-red-500">Information</span></h2>
+                <p class="text-center lg:mx-60 text-white pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fuga nisi doloremque aliquid commodi vitae voluptatum, voluptatem eos, dicta non facilis quas dolorem odio tempore. Tempore fugit beatae nostrum porro.</p>
+            </div>
+            <div
+                class="lg:mx-20 my-24 flex flex-col lg:flex-row px-16 py-24 gap-40 bg-gradient-to-r from-orange-500 to-red-500 roboto-slab">
+                <div class="flex items-center">
+                    <div class="space-y-7">
+                        <h3 class="text-5xl font-extrabold text-white">Meet Our Super <br> Clients</h3>
+                        <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. </p>
+                        <button class="btn btn-warning">Show All</button>
+                    </div>
+                </div>
+                <!-- review container -->
+                <div class="relative">
+                    <!-- next review -->
+                    <div class="bg-white z-10 relative mb-16 opacity-40 p-10 rounded-xl ">
+                        <img class="absolute  w-[100px] h-[110px] border-4 border-white rounded-full bg-white -top-5 -left-5"
+                            src="images/sujon picture.png" alt="">
+                        <p class="pt-10 text-black">We are providing the best and suitable home insurance services for
+                            the people who
+                            are interested to treatment</p>
+                        <h3 class=" pt-5 font-bold text-black">Md Shoayeb Islam</h3>
+                        <h3>Student of CSE</h3>
+                        <div class="flex justify-end">
+                            <img src="images/circles.png" alt="">
+                        </div>
+                    </div>
+                    <!-- current review -->
+                    <div class="bg-white z-20 top-40 lg:-left-40 lg:w-[420px] absolute p-10 rounded-xl ">
+                        <img class="absolute border-4 w-[100px] h-[110px] border-white rounded-full bg-white -top-5 -left-5"
+                            src="images/sujon picture.png" alt="">
+                        <p class="pt-10 text-black">We are providing the best and suitable home insurance services for
+                            the people who
+                            are interested to treatment</p>
+                        <h3 class=" pt-5 font-bold text-black">Md Shoayeb Islam</h3>
+                        <h3>Student of CSE</h3>
+                        <div class="flex justify-end">
+                            <img src="images/circles.png" alt="">
+                        </div>
+                    </div>
+                    <!-- privious review -->
+                    <div class="bg-white z-5 opacity-40 relative p-10 rounded-xl ">
+                        <img class="absolute border-4  w-[100px] h-[110px] border-white rounded-full bg-white -top-5 -left-5"
+                            src="images/sujon picture.png" alt="">
+                        <p class="pt-10 text-black">We are providing the best and suitable home insurance services for
+                            the people who
+                            are interested to treatment</p>
+                        <h3 class=" pt-5 font-bold text-black">Md Shoayeb Islam</h3>
+                        <h3>Student of CSE</h3>
+                        <div class="flex justify-end">
+                            <img src="images/circles.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- last section -->
+        <section class="py-10 bg-white p-32 bebas-neue-regular">
+            <div class="lg:mx-44 lg:flex  items-center gap-20 space-y-10 lg:space-y-0 text-black">
+                <div class="flex flex-col items-center space-y-5">
+                    <img class="lg:mr-5" src="images/pic5 (1).png" alt="">
+                    <h3 class="font-extrabold text-3xl">24/7 CUSTOMER SERVICE</h3>
+                    <p class="font-bold roboto-slab">Friendly 24/7 customer support</p>
+                </div>
+                <div class="flex flex-col items-center space-y-5">
+                    <img class="lg:mr-10" src="images/pic6.png" alt="">
+                    <h3 class="font-extrabold text-3xl">MONEY BACK GUARANTEE</h3>
+                    <p class="font-bold roboto-slab">We reurn money within 30 days</p>
+                </div>
+                <div class="flex flex-col items-center space-y-5">
+                    <img class="lg:mr-16" src="images/pic7.png" alt="">
+                    <h3 class="font-extrabold text-3xl">FREE AND FAST DELIVERY</h3>
+                    <p class="font-bold roboto-slab">Free delivery for all orders over $140</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer bg-base-300  text-base-content p-10 pl-10 lg:pl-20 roboto-slab text-white">
+            <nav class="space-y-3">
+                <h6 class="footer-title text-white font-extrabold text-2xl">Download App</h6>
+                <a class="link link-hover">Save $3 with App New User Onlys</a>
+                <div class="flex gap-5">
+                    <div>
+                        <img src="images/Qrcode 1.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-3 text-white">
+                            <div>
+                                <i class="fa-brands fa-google-play text-2xl"></i>
+                            </div>
+                            <div>
+                                <h4>GET IT ON</h4>
+                                <h3>Google Play</h3>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3 text-white">
+                            <div>
+                                <i class="fa-brands fa-apple text-3xl"></i>
+                            </div>
+                            <div>
+                                <h4>GET IT ON</h4>
+                                <h3>Google Play</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between gap-10 text-2xl">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </nav>
+            <nav class="space-y-3">
+                <h6 class="footer-title text-white font-extrabold text-2xl">Support</h6>
+                <a class="link link-hover">111 Bijoy sarani, Dhaka,<br> DH 1515, Bangladesh.</a>
+                <a class="link link-hover">exclusive@gmail.com</a>
+                <a class="link link-hover">+88015-88888-9999</a>
+            </nav>
+            <nav class="space-y-3">
+                <h6 class="footer-title text-2xl font-extrabold text-white">Account</h6>
+                <a class="link link-hover">My Account</a>
+                <a class="link link-hover">Login / Register</a>
+                <a class="link link-hover">Cart</a>
+                <a class="link link-hover">Wishlist</a>
+                <a class="link link-hover">Shop</a>
+            </nav>
+            <nav class="space-y-3">
+                <h6 class="footer-title text-2xl font-extrabold text-white">Quick Link</h6>
+                <a class="link link-hover">Privacy Policy</a>
+                <a class="link link-hover">Terms Of Use</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Contact</a>
+            </nav>
+            <form class="space-y-3">
+                <h6 class="footer-title font-extrabold text-white text-2xl">Exclusive</h6>
+                <fieldset class="form-control w-80">
+                    <h3 class="font-bold text-white">Subscribe</h3>
+                    <label class="label">
+                        <span class="label-text">Get 10% off your first order</span>
+                    </label>
+
+                    <div class="join relative">
+                        <input type="text" placeholder="Enter your email" class="input input-bordered join-item " />
+                        <img class="absolute top-3 left-48" src="images/icon-send.png" alt="">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <hr class="bg-base-300">
+        <div class="footer footer-center bg-base-300 text-base-content p-4 text-2xl">
+            <aside>
+                <p>© Md Shoayeb Islam. Project of 5th Semester</p>
+            </aside>
+        </div>
+    </footer>
+</body>
+
+</html>
